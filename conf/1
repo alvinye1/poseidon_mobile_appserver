@@ -1,0 +1,7 @@
+[mysql]
+user=testuser
+passwd=ebank#1Dcc
+host=80.2.238.228
+port=8886
+db=testdb
+table=poseidon_alarm_sys
