@@ -27,3 +27,5 @@ def area_detect():
     else:
         # this is a production area
         return 'production'
+
+
