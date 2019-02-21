@@ -19,6 +19,7 @@ if __name__ == '__main__':
 # manager = Manager(create_app)
 # manager.add_command('runserver', Server(host='192.168.31.193', port=3345))
 #
+
 # if __name__ == '__main__':
 #     manager.run()
 #
@@ -33,7 +34,7 @@ if __name__ == '__main__':
 #     return 'Hello World!'
 #
 #
+
+
 # if __name__ == '__main__':
 #     app.run()
-#
-#

@@ -4,7 +4,7 @@ Created by jojo at 2018/7/5
 '''
 import pymysql as MySQLdb
 # import MySQLdb
-from backend.modules.common_util import get_config
+from modules.common_util import get_config
 
 config = get_config()
 

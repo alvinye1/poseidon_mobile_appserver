@@ -2,7 +2,6 @@
 import xlrd
 from modules.database_controller.Mongodb import *
 
-
 def adi():
     a = MongoDB('80.7.238.136', 8889, 'testposeidon', 'adi', 'root', 'qwert789')
     book = xlrd.open_workbook('/tmp/20190109.xls')

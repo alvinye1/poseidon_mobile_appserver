@@ -11,7 +11,6 @@ import simplejson as json
 
 class NMONfile(object):
 
-
     def __init__(self,hostname):
         self.host = hostname # hostname
         # self.path = str   # directory
@@ -22,7 +21,6 @@ class NMONfile(object):
 
     # def get_first_line(self):
     #     return self.files
-
 
 
     # get messages from socket

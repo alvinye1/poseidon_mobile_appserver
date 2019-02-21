@@ -8,12 +8,13 @@
 # ======================================
 
 import socket
+import ifcfg
 
 PRODUCTION_AREA = '80.7.83.'
 
 
 def get_address():
-    address = socket.gethostbyname(socket.getfqdn(socket.gethostname()))
+    address = ifcfg.default_interface()['inet']
     return address
 
 
@@ -21,8 +22,8 @@ def area_detect():
     """to define whether it's in the production envirorment or the test one"""
     address = get_address()
     if address.find(PRODUCTION_AREA) == -1:
-        #this is a test area
+        # this is a test area
         return 'test'
     else:
-        #this is a production area
+        # this is a production area
         return 'production'
